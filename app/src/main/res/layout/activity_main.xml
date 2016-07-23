@@ -106,4 +106,26 @@
         android:background="#2962FF"
         android:layout_marginTop="10dp"
         />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Website"
+        android:id="@+id/button"
+        android:onClick="website"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:background="#68AFAD"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Github"
+        android:id="@+id/button2"
+        android:layout_alignBottom="@+id/button"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:background="#68AFAD"
+        android:onClick="gitHub"/>
 </RelativeLayout>

@@ -46,4 +46,14 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         startActivity(intent);
     }
+    public void website(View v){
+        Uri uri = Uri.parse("http://nkl07ba.github.io/portfolio/");
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(intent);
+    }
+    public void gitHub(View v){
+        Uri uri = Uri.parse("https://github.com/nikhil-31");
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(intent);
+    }
 }
