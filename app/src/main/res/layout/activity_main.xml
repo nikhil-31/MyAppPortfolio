@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.nikhil.myappportfolio.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="My Nanodegree Applications"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:textColor="#68AFAD"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Popular Movies"
+        android:id="@+id/buttonp"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/buttons"
+        android:layout_alignStart="@+id/buttons"
+        android:layout_alignRight="@+id/buttons"
+        android:layout_alignEnd="@+id/buttons"
+        android:onClick="todo"
+        android:background="#BF360C" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stock Hawk"
+        android:id="@+id/buttons"
+        android:layout_below="@+id/buttonp"
+        android:layout_alignLeft="@+id/buttonb"
+        android:layout_alignStart="@+id/buttonb"
+        android:layout_alignRight="@+id/buttonb"
+        android:layout_alignEnd="@+id/buttonb"
+        android:onClick="todo"
+        android:layout_marginTop="10dp"
+
+        android:background="#00ACC1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Build it Bigger"
+        android:id="@+id/buttonb"
+        android:layout_below="@+id/buttons"
+        android:layout_alignLeft="@+id/buttonm"
+        android:layout_alignStart="@+id/buttonm"
+        android:layout_alignRight="@+id/buttonm"
+        android:layout_alignEnd="@+id/buttonm"
+        android:onClick="todo"
+        android:background="#FFA726"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Make your app material"
+        android:id="@+id/buttonm"
+        android:layout_below="@+id/buttonb"
+        android:layout_centerHorizontal="true"
+        android:onClick="todo"
+        android:background="#0097A7"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go Ubiquitious"
+        android:id="@+id/buttong"
+        android:layout_below="@+id/buttonm"
+        android:layout_alignLeft="@+id/buttonm"
+        android:layout_alignStart="@+id/buttonm"
+        android:layout_alignRight="@+id/buttonm"
+        android:layout_alignEnd="@+id/buttonm"
+        android:onClick="todo"
+        android:background="#7B1FA2"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capstone"
+        android:id="@+id/buttonc"
+        android:layout_below="@+id/buttong"
+        android:layout_alignLeft="@+id/buttong"
+        android:layout_alignStart="@+id/buttong"
+        android:layout_alignRight="@+id/buttong"
+        android:layout_alignEnd="@+id/buttong"
+        android:onClick="todo"
+        android:background="#2962FF"
+        android:layout_marginTop="10dp"
+        />
+</RelativeLayout>
