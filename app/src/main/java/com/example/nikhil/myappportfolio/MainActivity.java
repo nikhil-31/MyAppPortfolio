@@ -1,5 +1,7 @@
 package com.example.nikhil.myappportfolio;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -26,8 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void todo(View v){
-        if(v.equals(buttonpop))
-            Toast.makeText(getApplicationContext(),"Click this for popular movies application",Toast.LENGTH_SHORT).show();
+
         if(v.equals(buttonstock))
             Toast.makeText(getApplicationContext(),"Click this for stock hawk application",Toast.LENGTH_SHORT).show();
         if(v.equals(buttonbuild))
@@ -38,5 +39,11 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(getApplicationContext(),"Click this for go ubiqutious application",Toast.LENGTH_SHORT).show();
         if(v.equals(buttoncap))
             Toast.makeText(getApplicationContext(),"Click this for capstone application",Toast.LENGTH_SHORT).show();
+    }
+    public void gitPop(View v){
+        Toast.makeText(getApplicationContext(),"Redirecting to git Repo",Toast.LENGTH_LONG).show();
+        Uri uri = Uri.parse("https://github.com/nikhil-31/Popularmovies1");
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(intent);
     }
 }

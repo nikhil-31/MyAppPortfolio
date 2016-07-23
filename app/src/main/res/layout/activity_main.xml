@@ -31,8 +31,9 @@
         android:layout_alignStart="@+id/buttons"
         android:layout_alignRight="@+id/buttons"
         android:layout_alignEnd="@+id/buttons"
-        android:onClick="todo"
-        android:background="#BF360C" />
+        android:onClick="gitPop"
+        android:background="#BF360C"
+        />
 
     <Button
         android:layout_width="wrap_content"
